@@ -21,6 +21,7 @@ namespace meracopy
         {
             try
             { 
+                //hi
             Clipboard.SetData("hi", "hi");
                 label1.Text=Clipboard.GetData("hi").ToString();
         }
